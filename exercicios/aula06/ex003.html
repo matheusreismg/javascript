@@ -32,9 +32,13 @@
     <h1 id="principal">Olá, Mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-       window.alert('Minha primeira mensagem!') // Janela com um alerta (mensagem) 
-       window.confirm('Está gostando de JS') // Janela com Ok e Cancelar 
-       window.prompt('Qual é seu nome?') // Vai perguntar o nome... 
+       var n1 = Number(window.prompt('Digite um número')) // String
+       var n2 = Number(window.prompt('Digite outro número')) // String
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é ${s}`) // Concatenação
+
+       // + para adição
+       // + para Concatenação
     </script>
 </body>
 </html>
